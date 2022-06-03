@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervecería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div>
+      <h1>Temperatura:</h1>
+      <h4>fermentador 01</h4>
+      <div class="container-data">
+        <h1 id="printdata"></h1>
+      </div>
+   </div>
+
+   <div>
+    <canvas id="myChart" width="600" height="400"></canvas>
+   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>   
+  <script src="/socket.io/socket.io.js"></script>  
+  <script src="main.js"></script>
+</body>
+</html>
