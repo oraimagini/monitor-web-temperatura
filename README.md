@@ -1,4 +1,4 @@
-** Monito web de temperaturas, arduino/node **
+** Monitor web de temperaturas, arduino/node **
 
 *arduino*
 - Copiar el código de la carpeta ds18b20 en aruduino-ide
